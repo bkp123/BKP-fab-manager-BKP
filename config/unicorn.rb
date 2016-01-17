@@ -1,6 +1,6 @@
 # config/unicorn.rb
 
-root = "/home/sleede/apps/fabmanager/current"
+root = "/root/fab-manager"
 working_directory root
 pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.log"
